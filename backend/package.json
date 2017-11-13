@@ -1,0 +1,16 @@
+{
+  "name": "my-todo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon inspect server.js",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.6",
+    "nodemon": "^1.12.1"
+  }
+}
